@@ -172,13 +172,16 @@ def pltsettings(save=None,fileformat='.pdf',disp = True,close=False, xlabel='',y
     
 lbl = {'mV' : '$V\\,[\\mathrm{mV}]$',
        'uA' : '$I\\,[\\mathrm{\\mu A}]$',
+       'A' : '$I\\,[\\mathrm{A}]$',
        'uA/mV' : '$I/V\\,[\\mathrm{\\mu A}/\\mathrm{mV}]$',
        'Y' : '$Y\\,[\\mho]$',
        'Ohm' : '$Z\\,[\\Omega]$',
+       'Rn' : '$R_\\mathrm{n}\\,[\\Omega]$',
        'gap' : '$V/V_{gap}$',
        'cc' : '$I/I_{c}$',
        'YR' : '$Y/R_{N}^{-1}$',
        'ZR' : '$Z/R_{N}$',
        'GHz' : '$f\\,[\\mathrm{GHz}]$',
-       'normalisedSigma' : '$\\sigma/\\sigma_\\mathrm{n}$'
+       'normalisedSigma' : '$\\sigma/\\sigma_\\mathrm{n}$',
+       'Wb' : '$\Phi\\,[\\mathrm{Wb}]$'
        }
